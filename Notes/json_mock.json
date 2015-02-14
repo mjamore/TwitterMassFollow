@@ -1,0 +1,364 @@
+// Homepage - Most Followed Lists Widget - data coming from server to client on page load
+{
+	"most_followed_lists": [
+		{
+			"rank": 1,
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "NFL Football Players",
+			"list_description": "List of current NFL football players"
+		},
+		{
+			"rank": 2,
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Dancing With The Stars Competitors",
+			"list_description": "Julie's Favorite DWTS People"
+		},
+		{
+			"rank": 3,
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Dealer.com Employees",
+			"list_description": "People who work at DDC in Burlington, VT"
+		},
+		{
+			"rank": 4,
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Famous Mexican Americans",
+			"list_description": "Like Jennifer Lopez and stuff"
+		},
+		{
+			"rank": 5,
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Celebrity Apprentice - Season 12",
+			"list_description": "Stupid celebrities staying relevant"
+		}
+	]
+}
+
+
+// Homepage - Recently Created Lists Widget - data coming from server to client on page load
+{
+	"recently_created_lists": [
+		{
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "NFL Football Players",
+			"list_description": "List of current NFL football players"
+		},
+		{
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Dancing With The Stars Competitors",
+			"list_description": "Julie's Favorite DWTS People"
+		},
+		{
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Dealer.com Employees",
+			"list_description": "People who work at DDC in Burlington, VT"
+		},
+		{
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Famous Mexican Americans",
+			"list_description": "Like Jennifer Lopez and stuff"
+		},
+		{
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Celebrity Apprentice - Season 12",
+			"list_description": "Stupid celebrities staying relevant"
+		}
+	]
+}
+
+
+// Homepage - Search For Lists Widget - data being sent from client to server - AJAX
+{
+	"search_query": "some search query text"
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+
+
+
+// SRP - No Results - Search Results Widget - data coming from server to client on page load
+{
+	"search_query": "some search query text",
+	"results": []
+}
+
+
+// SRP - No Results - Search For Lists Widget - data being sent from client to server - AJAX
+{
+	"search_query": "some search query text"
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+
+
+
+// SRP - Search Results Widget - data coming from server to client on page load
+{
+	"search_query": "some search query text",
+	"results": [
+		{
+			"rank": 1,
+			"number_upvotes": 500,
+			"number_downvotes": 200,
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "NFL Football Players",
+			"list_description": "List of current NFL football players",
+			"list_author": "@some_douche"
+		},
+		{
+			"rank": 2,
+			"number_upvotes": 500,
+			"number_downvotes": 200,
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Dancing With The Stars Competitors",
+			"list_description": "Julie's Favorite DWTS People",
+			"list_author": "@some_douche"
+		},
+		{
+			"rank": 3,
+			"number_upvotes": 500,
+			"number_downvotes": 200,
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Dealer.com Employees",
+			"list_description": "People who work at DDC in Burlington, VT",
+			"list_author": "@some_douche"
+		},
+		{
+			"rank": 4,
+			"number_upvotes": 500,
+			"number_downvotes": 200,
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Famous Mexican Americans",
+			"list_description": "Like Jennifer Lopez and stuff",
+			"list_author": "@some_douche"
+		},
+		{
+			"rank": 5,
+			"number_upvotes": 500,
+			"number_downvotes": 200,
+			"list_image": "http://www.domain.com/list/list_title/image.jpg",
+			"list_title": "Celebrity Apprentice - Season 12",
+			"list_description": "Stupid celebrities staying relevant",
+			"list_author": "@some_douche"
+		}
+	]
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+
+
+
+// Details Page - View List Details Widget - data coming from server to client on page load
+{
+	"view_list_details": {
+		"list_overview": {
+			"number_upvotes": 548,
+			"number_downvotes": 232,
+			"list_title": "Current NFL Football Players",
+			"list_description": "This is a list of entertaining current NFL players",
+			"list_author": "@dr.PhilLipman",
+			"list_total_follows": 861
+		},
+		"twitter_users": [
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@CamWarEagle",
+				"twitter_realname": "Cam Newton",
+				"twitter_description": "Quarterback for Carolina Panthers"
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@TomTheDeflater",
+				"twitter_realname": "Tom Brady",
+				"twitter_description": "Have you seen my wife? HAHA"
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@TonyRomo9",
+				"twitter_realname": "Tony Romo",
+				"twitter_description": "Good ole American boy playing quarterback for America's Team"
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@THE_Dez_Bryant",
+				"twitter_realname": "Dez Bryant",
+				"twitter_description": "We all know that was a catch. What bullshit."
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@TrillWillHill",
+				"twitter_realname": "Will Hill",
+				"twitter_description": "You know how I do..."
+			}
+		]
+	}
+}
+
+
+// Details Page - Mass Follow Widget - data from client to server on "Follow All Selected Users" button click - AJAX
+{
+	"view_list_details": {
+		"current_user_details": {
+			"twitter_username": "@some_douche"
+		},
+		"list_overview": {
+			"list_title": "Current NFL Football Players"
+		},
+		"twitter_users_to_follow": [
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@CamWarEagle",
+				"twitter_realname": "Cam Newton",
+				"twitter_description": "Quarterback for Carolina Panthers"
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@TomTheDeflater",
+				"twitter_realname": "Tom Brady",
+				"twitter_description": "Have you seen my wife? HAHA"
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@TonyRomo9",
+				"twitter_realname": "Tony Romo",
+				"twitter_description": "Good ole American boy playing quarterback for America's Team"
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@THE_Dez_Bryant",
+				"twitter_realname": "Dez Bryant",
+				"twitter_description": "We all know that was a catch. What bullshit."
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@TrillWillHill",
+				"twitter_realname": "Will Hill",
+				"twitter_description": "You know how I do..."
+			}
+		]
+	}
+}
+
+
+// Details Page - Mass Follow Widget successful response - data from server to client - AJAX
+{
+	"mass_follow_response": {
+		"current_user": {
+			"twitter_username": "@some_douche"
+		},
+		"list_overview": {
+			"list_title": "Current NFL Football Players"
+		},
+		"twitter_users_successfully_followed": [
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@CamWarEagle",
+				"twitter_realname": "Cam Newton",
+				"twitter_description": "Quarterback for Carolina Panthers"
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@TomTheDeflater",
+				"twitter_realname": "Tom Brady",
+				"twitter_description": "Have you seen my wife? HAHA"
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@TonyRomo9",
+				"twitter_realname": "Tony Romo",
+				"twitter_description": "Good ole American boy playing quarterback for America's Team"
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@THE_Dez_Bryant",
+				"twitter_realname": "Dez Bryant",
+				"twitter_description": "We all know that was a catch. What bullshit."
+			},
+			{
+				"twitter_image": "http://www.domain.com/users/twitter_username/image.jpg",
+				"twitter_username": "@TrillWillHill",
+				"twitter_realname": "Will Hill",
+				"twitter_description": "You know how I do..."
+			}
+		]
+	}
+}
+
+
+// Details Page - Report This List Widget - data from client to server - AJAX
+{
+	"reported_list": {
+		"current_user": {
+			"twitter_username": "@some_douche"
+		},
+		"list_overview": {
+			"list_title": "Current NFL Football Players"
+		},
+		"issue_details": {
+			"message": "some message provided by user describing issue with this list" 
+		}
+	}
+}
+
+
+// Details Page - Suggest Improvement to List Widget - data from client to server - AJAX
+{
+	"suggest_improvement_to_list": {
+		"current_user": {
+			"twitter_username": "@some_douche"
+		},
+		"list_overview": {
+			"list_title": "Current NFL Football Players"
+		},
+		"changes": {
+			"users_to_remove": [
+				{
+					"twitter_username": "@PhilCollins"
+				},
+				{
+					"twitter_username": "@clownshoes69"
+				},
+				{
+					"twitter_username": "@FrankWright"
+				}
+			],
+			"users_to_add" : [
+				{
+					"twitter_username": "@Sparky_Anderson"
+				},
+				{
+					"twitter_username": "@GMCJimmy"
+				},
+				{
+					"twitter_username": "@Pepper_Johnson"
+				},
+			]
+		}
+	}
+}
+
+
+// Details Page - Suggest Improvement to List Widget successful response from server - AJAX
+{
+	"inprovement_suggestion_response": {
+		"current_user": {
+			"twitter_username": "@some_douche"
+		},
+		"list_overview": {
+			"list_title": "Current NFL Football Players",
+			"list_author": "@something_user"
+		},
+		"twitter_direct_message": {
+			"message": "Suggestion from @some_douce for list_title. Remove @user1, @user2, and @user3. Add @user4, @user5, and @user6. Link to VDP in editing mode."
+		}
+	}
+}
